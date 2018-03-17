@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Oswald');
+
+.App {
+  text-align: center;
+}
+
+header {
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 250px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  border-bottom: black solid 3px;
+}
+
+h1 {
+  bottom: 0;
+  font-size: 3rem;
+  color: black;
+  margin: 0;
+  align-self: flex-end;
+}
+
+h1 .c1 {
+  color: #61dbfb;
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 .c2 {
+  color: #764abc;
+  font-family: 'Bree Serif', serif;
+}
+
+.counter {
+  font-size: 3rem;
+  color: #666;
+}
+
+.button1, .button2 {
+  background-color: #61dbfb;
+  border: 0;
+  padding: 1rem;
+  font-size: 1rem;
+  color: black;
+}
+
+.button2 {
+  margin-left: 1rem;
+  color: white;
+  background-color: #764abc;
+}
+
+.counter {
+  cursor: pointer;
+}
