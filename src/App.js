@@ -8,14 +8,20 @@ class App extends Component {
       <div className="App">
         <header>
           <h1>
-            <span className="c1">React</span> + <span className="c2">Redux</span>
+            <span className="c1">React</span>
+            <span> + </span>
+            <span className="c2">Redux</span>
           </h1>
         </header>
         <p className="counter" onClick={this.props.increment}>
-          { this.props.count }
+          {this.props.count}
         </p>
-        <button className="button1" onClick={this.props.increment}>Increment</button>
-        <button className="button2" onClick={this.props.incrementAsync}>Increment Async</button>
+        <button className="button1" onClick={this.props.increment}>
+          Increment
+        </button>
+        <button className="button2" onClick={this.props.incrementAsync}>
+          Increment Async
+        </button>
       </div>
     );
   }
