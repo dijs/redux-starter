@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif|Oswald');
 
+// Palette
+$blue: #61dbfb;
+$purple: #764abc;
+$gray: #666666;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -17,28 +28,28 @@ header {
 h1 {
   bottom: 0;
   font-size: 3rem;
-  color: black;
   margin: 0;
   align-self: flex-end;
 }
 
 h1 .c1 {
-  color: #61dbfb;
+  color: $blue;
   font-family: 'Oswald', sans-serif;
 }
 
 h1 .c2 {
-  color: #764abc;
+  color: $purple;
   font-family: 'Bree Serif', serif;
 }
 
 .counter {
   font-size: 3rem;
-  color: #666;
+  color: $gray;
 }
 
-.button1, .button2 {
-  background-color: #61dbfb;
+.button1,
+.button2 {
+  background-color: $blue;
   border: 0;
   padding: 1rem;
   font-size: 1rem;
@@ -48,7 +59,7 @@ h1 .c2 {
 .button2 {
   margin-left: 1rem;
   color: white;
-  background-color: #764abc;
+  background-color: $purple;
 }
 
 .counter {
