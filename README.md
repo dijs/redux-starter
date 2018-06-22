@@ -1,8 +1,8 @@
 ## A Modern React/Redux Starter
 
-This starter was originally based on [Create React App](https://github.com/facebookincubator/create-react-app), then improved to include Redux and **perfect** module hot loading.
+This starter was originally based on [Create React App](https://github.com/facebookincubator/create-react-app), then improved to include Redux and **perfect** module hot loading and SASS support.
 
-As you will find, all saved file changes will automatically be updated in the running app. This includes app code, reducer code, CSS, and more.
+As you will find, all saved file changes will automatically be updated in the running app. This includes app code, reducer code, SASS, and more.
 
 ## Available Scripts
 
